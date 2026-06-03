@@ -1,0 +1,73 @@
+{
+  "type": "bundle",
+  "id": "bundle--sample-ti-feed-001",
+  "spec_version": "2.1",
+  "objects": [
+    {
+      "type": "indicator",
+      "id": "indicator--001",
+      "spec_version": "2.1",
+      "name": "Malicious IP - Emotet C2",
+      "description": "IP address associated with Emotet command and control infrastructure",
+      "pattern": "[ipv4-addr:value = '91.108.4.0']",
+      "pattern_type": "stix",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "labels": ["malicious-activity", "c2"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--002",
+      "spec_version": "2.1",
+      "name": "Cobalt Strike C2 Domain",
+      "description": "Domain used as Cobalt Strike beacon callback",
+      "pattern": "[domain-name:value = 'malware.example.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-01-15T00:00:00Z",
+      "labels": ["malicious-activity", "c2", "cobalt-strike"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--003",
+      "spec_version": "2.1",
+      "name": "Ransomware SHA256 Hash",
+      "description": "SHA256 hash of LockBit ransomware binary",
+      "pattern": "[file:hashes.'SHA-256' = 'aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-01T00:00:00Z",
+      "labels": ["malicious-activity", "ransomware"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--004",
+      "spec_version": "2.1",
+      "name": "Phishing URL",
+      "description": "Active credential harvesting phishing page",
+      "pattern": "[url:value = 'https://phishing-kit.tk/login.php']",
+      "pattern_type": "stix",
+      "valid_from": "2026-02-10T00:00:00Z",
+      "labels": ["malicious-activity", "phishing"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--005",
+      "spec_version": "2.1",
+      "name": "RAT C2 Domain",
+      "description": "Domain used by Remote Access Trojan for C2 communications",
+      "pattern": "[domain-name:value = 'update-service.biz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-01T00:00:00Z",
+      "labels": ["malicious-activity", "rat", "c2"]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--006",
+      "spec_version": "2.1",
+      "name": "Tor Exit Node IP",
+      "description": "Known Tor exit node also used for botnet relaying",
+      "pattern": "[ipv4-addr:value = '185.220.101.45']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:00:00Z",
+      "labels": ["malicious-activity", "tor", "anonymization"]
+    }
+  ]
+}

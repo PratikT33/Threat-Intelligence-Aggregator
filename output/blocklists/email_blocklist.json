@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-05-28T14:20:39.900212+00:00",
+  "blocklist_type": "email",
+  "total_entries": 3,
+  "indicators": [
+    {
+      "value": "phish@attacker-domain.xyz",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-28T14:20:39.893677+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "dropper@malspam-group.net",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-28T14:20:39.893715+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "noreply@cdn-fast-delivery.ru",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-28T14:20:39.893781+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+value,type,severity,source_count,sources,category,timestamp
+103.35.74.100,ip,High,3,SampleFeed_CSV|SampleFeed_JSON|SampleFeed_TXT,network,2026-05-28T14:20:39.893683+00:00
+185.220.101.45,ip,High,4,SampleFeed_CSV|SampleFeed_JSON|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893622+00:00
+91.108.4.0,ip,High,4,SampleFeed_CSV|SampleFeed_JSON|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893647+00:00
+194.165.16.72,ip,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893776+00:00
+45.142.212.100,ip,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893773+00:00

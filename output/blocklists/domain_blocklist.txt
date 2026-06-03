@@ -1,0 +1,19 @@
+# TI Aggregator Blocklist
+# Generated: 2026-05-28T14:20:39.897056+00:00
+# Total entries: 15
+#
+attacker-domain.xyz
+badactor.cc
+cdn-fast-delivery.ru
+dropper.exe
+evil-payload.ru
+login.php
+malicious-cdn.net
+malspam-group.net
+malware.example.com
+payload.js
+phishing-domain.xyz
+phishing-kit.tk
+stage2.bin
+telemetry-check.xyz
+update-service.biz

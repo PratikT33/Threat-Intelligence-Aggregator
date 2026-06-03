@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-05-28T14:20:39.896308+00:00",
+  "blocklist_type": "ip",
+  "total_entries": 5,
+  "indicators": [
+    {
+      "value": "103.35.74.100",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893683+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "185.220.101.45",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893622+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "91.108.4.0",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893647+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "194.165.16.72",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893776+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "45.142.212.100",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893773+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    }
+  ]
+}

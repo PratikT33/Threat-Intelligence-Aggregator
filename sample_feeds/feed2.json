@@ -1,0 +1,62 @@
+[
+  {
+    "ioc": "185.220.101.45",
+    "category": "botnet",
+    "severity": "high",
+    "description": "Known Tor exit / botnet relay"
+  },
+  {
+    "ioc": "91.108.4.0",
+    "category": "c2",
+    "severity": "high",
+    "description": "Emotet C2 server"
+  },
+  {
+    "ioc": "phishing-domain.xyz",
+    "category": "phishing",
+    "severity": "medium",
+    "description": "Active phishing kit host"
+  },
+  {
+    "ioc": "https://malicious-cdn.net/payload.js",
+    "category": "malware_distribution",
+    "severity": "high",
+    "description": "JavaScript malware loader"
+  },
+  {
+    "ioc": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344",
+    "category": "ransomware",
+    "severity": "critical",
+    "description": "LockBit ransomware binary SHA256"
+  },
+  {
+    "ioc": "103.35.74.100",
+    "category": "scanner",
+    "severity": "medium",
+    "description": "Mass scanning IP - port 22/3389"
+  },
+  {
+    "ioc": "malware.example.com",
+    "category": "c2",
+    "severity": "high",
+    "description": "Cobalt Strike beacon C2"
+  },
+  {
+    "ioc": "dropper@malspam-group.net",
+    "category": "phishing",
+    "severity": "medium",
+    "description": "Malspam campaign sender"
+  },
+  {
+    "ioc": "198.51.100.42",
+    "category": "scanner",
+    "severity": "low",
+    "description": "Vulnerability scanner"
+  },
+  {
+    "ioc": "update-service.biz",
+    "category": "c2",
+    "severity": "high",
+    "description": "Fake update domain used by RAT"
+  }
+]

@@ -1,0 +1,33 @@
+# ============================================================
+# Sample TI Feed - Plain Text Format
+# Source: Simulated CERT Notification Feed
+# Updated: 2026-05-01
+# Format: One indicator per line, comments start with #
+# ============================================================
+
+# --- Malicious IPs ---
+185.220.101.45
+91.108.4.0
+103.35.74.100
+45.142.212.100
+194.165.16.72
+
+# --- C2 Domains ---
+malware.example.com
+update-service.biz
+cdn-fast-delivery.ru
+telemetry-check.xyz
+
+# --- Malicious URLs ---
+https://evil-payload.ru/dropper.exe
+https://cdn-fast-delivery.ru/stage2.bin
+https://phishing-kit.tk/login.php
+
+# --- File Hashes ---
+44d88612fea8a8f36de82e1278abb02f
+aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344
+da39a3ee5e6b4b0d3255bfef95601890afd80709
+
+# --- Email IOCs ---
+phish@attacker-domain.xyz
+noreply@cdn-fast-delivery.ru

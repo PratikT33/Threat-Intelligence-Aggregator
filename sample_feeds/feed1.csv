@@ -1,0 +1,11 @@
+indicator,type,confidence,description,tags
+185.220.101.45,ip,high,Tor exit node used for scanning,tor;scanner
+91.108.4.0,ip,medium,Botnet C2 server - Emotet,botnet;emotet
+malware.example.com,domain,high,Active C2 domain - Cobalt Strike,c2;cobaltstrike
+https://evil-payload.ru/dropper.exe,url,high,Malware dropper URL,dropper;malware
+44d88612fea8a8f36de82e1278abb02f,md5,high,Emotet loader - MD5,emotet;loader
+aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344,sha256,high,Ransomware payload SHA256,ransomware
+phish@attacker-domain.xyz,email,medium,Phishing sender address,phishing
+103.35.74.100,ip,high,Brute-force source IP,bruteforce;scanner
+https://phishing-kit.tk/login.php,url,high,Credential harvesting page,phishing;credential
+badactor.cc,domain,medium,Recently registered C2 domain,c2;new

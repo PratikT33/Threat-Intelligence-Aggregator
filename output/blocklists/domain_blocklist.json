@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-05-28T14:20:39.897434+00:00",
+  "blocklist_type": "domain",
+  "total_entries": 15,
+  "indicators": [
+    {
+      "value": "login.php",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893693+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "malware.example.com",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893654+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "phishing-kit.tk",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893690+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "update-service.biz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893740+00:00",
+      "sources": [
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "attacker-domain.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893680+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "dropper.exe",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893666+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "evil-payload.ru",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893662+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "badactor.cc",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893696+00:00",
+      "sources": [
+        "SampleFeed_CSV"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "cdn-fast-delivery.ru",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893790+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "malicious-cdn.net",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893728+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "malspam-group.net",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893737+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "payload.js",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893731+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "phishing-domain.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893725+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "stage2.bin",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893802+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "telemetry-check.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893793+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    }
+  ]
+}

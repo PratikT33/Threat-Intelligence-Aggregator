@@ -1,0 +1,7 @@
+# TI Aggregator Blocklist
+# Generated: 2026-05-28T14:20:39.899755+00:00
+# Total entries: 3
+#
+dropper@malspam-group.net
+noreply@cdn-fast-delivery.ru
+phish@attacker-domain.xyz

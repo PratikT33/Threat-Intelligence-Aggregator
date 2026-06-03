@@ -1,0 +1,9 @@
+# ipset-compatible IP blocklist
+# Generated: 2026-05-28T14:20:39.901014+00:00
+# Entries: 3
+# Usage: ipset restore < firewall_ipset.txt
+#
+create ti_block hash:ip
+add ti_block 103.35.74.100
+add ti_block 185.220.101.45
+add ti_block 91.108.4.0

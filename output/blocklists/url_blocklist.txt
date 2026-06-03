@@ -1,0 +1,8 @@
+# TI Aggregator Blocklist
+# Generated: 2026-05-28T14:20:39.898061+00:00
+# Total entries: 4
+#
+https://cdn-fast-delivery.ru/stage2.bin
+https://evil-payload.ru/dropper.exe
+https://malicious-cdn.net/payload.js
+https://phishing-kit.tk/login.php

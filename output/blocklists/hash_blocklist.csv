@@ -1,0 +1,4 @@
+value,type,severity,source_count,sources,category,timestamp
+aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344,sha256,High,4,SampleFeed_CSV|SampleFeed_JSON|SampleFeed_STIX|SampleFeed_TXT,file,2026-05-28T14:20:39.893673+00:00
+44d88612fea8a8f36de82e1278abb02f,md5,Medium,2,SampleFeed_CSV|SampleFeed_TXT,file,2026-05-28T14:20:39.893669+00:00
+da39a3ee5e6b4b0d3255bfef95601890afd80709,sha1,Low,1,SampleFeed_TXT,file,2026-05-28T14:20:39.893755+00:00

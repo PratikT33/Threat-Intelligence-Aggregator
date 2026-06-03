@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-05-28T14:20:39.898358+00:00",
+  "blocklist_type": "url",
+  "total_entries": 4,
+  "indicators": [
+    {
+      "value": "https://phishing-kit.tk/login.php",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893687+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "https://evil-payload.ru/dropper.exe",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893658+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "https://cdn-fast-delivery.ru/stage2.bin",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893746+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "https://malicious-cdn.net/payload.js",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-28T14:20:39.893699+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    }
+  ]
+}

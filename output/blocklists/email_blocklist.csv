@@ -1,0 +1,4 @@
+value,type,severity,source_count,sources,category,timestamp
+phish@attacker-domain.xyz,email,Medium,2,SampleFeed_CSV|SampleFeed_TXT,identity,2026-05-28T14:20:39.893677+00:00
+dropper@malspam-group.net,email,Low,1,SampleFeed_JSON,identity,2026-05-28T14:20:39.893715+00:00
+noreply@cdn-fast-delivery.ru,email,Low,1,SampleFeed_TXT,identity,2026-05-28T14:20:39.893781+00:00

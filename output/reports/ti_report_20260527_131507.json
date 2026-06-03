@@ -1,0 +1,524 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-27T13:15:07.281559+00:00",
+    "report_version": "1.0",
+    "tool": "TI Aggregator v1.0",
+    "feeds_processed": [
+      "SampleFeed_CSV",
+      "SampleFeed_JSON",
+      "SampleFeed_TXT",
+      "SampleFeed_STIX"
+    ]
+  },
+  "statistics": {
+    "total_unique_iocs": 30,
+    "by_type": {
+      "domain": 15,
+      "ip": 5,
+      "url": 4,
+      "email": 3,
+      "md5": 1,
+      "sha256": 1,
+      "sha1": 1
+    },
+    "by_severity": {
+      "High": 9,
+      "Medium": 6,
+      "Low": 15
+    },
+    "by_category": {
+      "network": 24,
+      "file": 3,
+      "identity": 3
+    },
+    "top_sources": {
+      "SampleFeed_TXT": 23,
+      "SampleFeed_CSV": 15,
+      "SampleFeed_JSON": 12,
+      "SampleFeed_STIX": 8
+    }
+  },
+  "high_risk_indicators": [
+    {
+      "value": "185.220.101.45",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "91.108.4.0",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "malware.example.com",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344",
+      "type": "sha256",
+      "category": "file",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "103.35.74.100",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "https://phishing-kit.tk/login.php",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "phishing-kit.tk",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "login.php",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "update-service.biz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    }
+  ],
+  "all_indicators": [
+    {
+      "value": "103.35.74.100",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "185.220.101.45",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "91.108.4.0",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "aabbccdd11223344aabbccdd11223344aabbccdd11223344aabbccdd11223344",
+      "type": "sha256",
+      "category": "file",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "https://phishing-kit.tk/login.php",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "login.php",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "malware.example.com",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 4,
+      "severity": "High"
+    },
+    {
+      "value": "phishing-kit.tk",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "update-service.biz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON",
+        "SampleFeed_STIX",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 3,
+      "severity": "High"
+    },
+    {
+      "value": "44d88612fea8a8f36de82e1278abb02f",
+      "type": "md5",
+      "category": "file",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "attacker-domain.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "dropper.exe",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "evil-payload.ru",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "https://evil-payload.ru/dropper.exe",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "phish@attacker-domain.xyz",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV",
+        "SampleFeed_TXT"
+      ],
+      "source_count": 2,
+      "severity": "Medium"
+    },
+    {
+      "value": "194.165.16.72",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "45.142.212.100",
+      "type": "ip",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "badactor.cc",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_CSV"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "cdn-fast-delivery.ru",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "type": "sha1",
+      "category": "file",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "dropper@malspam-group.net",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "https://cdn-fast-delivery.ru/stage2.bin",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "https://malicious-cdn.net/payload.js",
+      "type": "url",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "malicious-cdn.net",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "malspam-group.net",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "noreply@cdn-fast-delivery.ru",
+      "type": "email",
+      "category": "identity",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "payload.js",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "phishing-domain.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_JSON"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "stage2.bin",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    },
+    {
+      "value": "telemetry-check.xyz",
+      "type": "domain",
+      "category": "network",
+      "timestamp": "2026-05-27T13:15:07.274559+00:00",
+      "sources": [
+        "SampleFeed_TXT"
+      ],
+      "source_count": 1,
+      "severity": "Low"
+    }
+  ]
+}

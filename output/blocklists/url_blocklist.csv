@@ -1,0 +1,5 @@
+value,type,severity,source_count,sources,category,timestamp
+https://phishing-kit.tk/login.php,url,High,3,SampleFeed_CSV|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893687+00:00
+https://evil-payload.ru/dropper.exe,url,Medium,2,SampleFeed_CSV|SampleFeed_TXT,network,2026-05-28T14:20:39.893658+00:00
+https://cdn-fast-delivery.ru/stage2.bin,url,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893746+00:00
+https://malicious-cdn.net/payload.js,url,Low,1,SampleFeed_JSON,network,2026-05-28T14:20:39.893699+00:00

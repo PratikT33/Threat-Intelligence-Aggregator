@@ -1,0 +1,16 @@
+value,type,severity,source_count,sources,category,timestamp
+login.php,domain,High,3,SampleFeed_CSV|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893693+00:00
+malware.example.com,domain,High,4,SampleFeed_CSV|SampleFeed_JSON|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893654+00:00
+phishing-kit.tk,domain,High,3,SampleFeed_CSV|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893690+00:00
+update-service.biz,domain,High,3,SampleFeed_JSON|SampleFeed_STIX|SampleFeed_TXT,network,2026-05-28T14:20:39.893740+00:00
+attacker-domain.xyz,domain,Medium,2,SampleFeed_CSV|SampleFeed_TXT,network,2026-05-28T14:20:39.893680+00:00
+dropper.exe,domain,Medium,2,SampleFeed_CSV|SampleFeed_TXT,network,2026-05-28T14:20:39.893666+00:00
+evil-payload.ru,domain,Medium,2,SampleFeed_CSV|SampleFeed_TXT,network,2026-05-28T14:20:39.893662+00:00
+badactor.cc,domain,Low,1,SampleFeed_CSV,network,2026-05-28T14:20:39.893696+00:00
+cdn-fast-delivery.ru,domain,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893790+00:00
+malicious-cdn.net,domain,Low,1,SampleFeed_JSON,network,2026-05-28T14:20:39.893728+00:00
+malspam-group.net,domain,Low,1,SampleFeed_JSON,network,2026-05-28T14:20:39.893737+00:00
+payload.js,domain,Low,1,SampleFeed_JSON,network,2026-05-28T14:20:39.893731+00:00
+phishing-domain.xyz,domain,Low,1,SampleFeed_JSON,network,2026-05-28T14:20:39.893725+00:00
+stage2.bin,domain,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893802+00:00
+telemetry-check.xyz,domain,Low,1,SampleFeed_TXT,network,2026-05-28T14:20:39.893793+00:00
